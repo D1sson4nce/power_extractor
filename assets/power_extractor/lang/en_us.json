@@ -1,0 +1,12 @@
+{
+    "item.power_extractor.power_extractor": "Power Extractor",
+    "item.power_extractor.power_injector": "Power Injector",
+
+    "itemGroup.power_extractor.power_extractor": "Power Extractor",
+
+    "tooltip.power_extractor.line1": "Extracts one of your powers",
+    "tooltip.power_extractor.line2": "If you have more than one power, it will extract a random one",
+
+    "power.power_extractor.extract": "Extract",
+    "power.power_extractor.inject": "Inject"
+}

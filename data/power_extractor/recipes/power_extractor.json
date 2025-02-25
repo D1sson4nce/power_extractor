@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "pattern": [" A ", "BCB", " D "],
+    "key": {
+        "A": {
+            "item": "palladium:redstone_flux_crystal"
+        },
+        "B": {
+            "item": "palladium:vibranium_circuit"
+        },
+        "C": {
+            "item": "minecraft:tinted_glass"
+        },
+        "D": {
+            "item": "minecraft:iron_nugget"
+        }
+    },
+    "result": {
+        "item": "power_extractor:power_extractor",
+        "count": 1
+    }
+}

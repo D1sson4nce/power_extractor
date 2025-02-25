@@ -1,0 +1,73 @@
+{
+    "name": { "translate": "power.power_extractor.extract" },
+    "background": "minecraft:textures/block/white_wool.png",
+    "icon": "power_extractor:power_extractor",
+    "hidden": true,
+    "abilities": {
+        "extract_right": {
+            "type": "palladium:animation_timer",
+            "hidden": true,
+            "start_value": 0,
+            "max_value": 20,
+            "conditions": {
+                "unlocking": [
+                    {
+                        "type": "power_extractor:is_mainhand",
+                        "hand": "right"
+                    }
+                ],
+                "enabling": [
+                    {
+                        "type": "palladium:held",
+                        "key_type": "right_click"
+                    }
+                ]
+            }
+        },
+        "extract_left": {
+            "type": "palladium:animation_timer",
+            "hidden": true,
+            "start_value": 0,
+            "max_value": 20,
+            "conditions": {
+                "unlocking": [
+                    {
+                        "type": "power_extractor:is_mainhand",
+                        "hand": "left"
+                    }
+                ],
+                "enabling": [
+                    {
+                        "type": "palladium:held",
+                        "key_type": "right_click"
+                    }
+                ]
+            }
+        },
+        "extract_powers": {
+            "type": "power_extractor:extract",
+            "hidden": true,
+            "conditions": {
+                "enabling": [
+                    {
+                        "type": "palladium:or",
+                        "conditions": [
+                            {
+                                "type": "palladium:animation_timer_ability",
+                                "ability": "extract_right",
+                                "min": 20,
+                                "max": 20
+                            },
+                            {
+                                "type": "palladium:animation_timer_ability",
+                                "ability": "extract_left",
+                                "min": 20,
+                                "max": 20
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

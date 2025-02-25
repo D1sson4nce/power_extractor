@@ -1,0 +1,21 @@
+modLoader = 'lowcodefml'
+showAsResourcePack = false
+loaderVersion="[47,)"
+license="All rights reserved"
+
+[[mods]]
+modId="power_extractor"
+displayName="Power Extractor"
+version="1.0.0"
+logoFile = "logo.png"
+logoBlur = false
+description='''
+Adds a way to extract and store powers. And then inject them back at any time
+'''
+
+[[dependencies.power_extractor]]
+modId = "palladium"
+mandatory = true
+versionRange = "[4.1.5,)"
+ordering = "NONE"
+side = "BOTH"

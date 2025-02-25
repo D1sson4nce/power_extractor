@@ -1,0 +1,15 @@
+{
+  "pack": {
+    "id": "power_extractor",
+    "description": "Adds a way to extract and store powers. And then inject them back at any time",
+    "pack_format": 15,
+    "version": "1.0.0"
+  },
+  "dependencies": {
+    "common": {
+      "minecraft": ">=1.20.1",
+      "palladium": ">=4.1.5",
+      "kubejs": ">=2001.6.5-build.14"
+    }
+  }
+}
