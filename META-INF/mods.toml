@@ -6,7 +6,7 @@ license="All rights reserved"
 [[mods]]
 modId="power_extractor"
 displayName="Power Extractor"
-version="1.0.0"
+version="1.0.1"
 logoFile = "logo.png"
 logoBlur = false
 description='''

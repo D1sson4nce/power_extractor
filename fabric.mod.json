@@ -4,7 +4,7 @@
     "environment": "*",
     "name": "Power Extractor",
     "id": "power_extractor",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Adds a way to extract and store powers. And then inject them back at any time",
     "icon": "logo.png",
     "license": "All rights reserved"
