@@ -3,7 +3,7 @@
         "id": "power_extractor",
         "description": "Adds a way to extract and store powers. And then inject them back at any time",
         "pack_format": 15,
-        "version": "1.0.1"
+        "version": "1.0.2"
     },
     "dependencies": {
         "common": {
